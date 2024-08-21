@@ -18,7 +18,7 @@ public class Main {
         // on 21 of august 2024
         for (int i = 0; i < 100; i++) {
 
-            FinnhubClient client = new FinnhubClient.Builder().token("cr2vqs1r01qkkc01ta30cr2vqs1r01qkkc01ta3g").build();
+            FinnhubClient client = new FinnhubClient.Builder().token("put your API Key here").build();
 
             CompanyProfile2 companyProfile = client.companyProfile("TSLA");
 
