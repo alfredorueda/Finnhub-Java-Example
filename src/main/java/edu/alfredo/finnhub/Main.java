@@ -28,6 +28,10 @@ public class Main {
 
             System.out.println("quote = " + quote);
 
+            var currentPrice = quote.getC();
+
+            System.out.println("currentPrice = " + currentPrice);
+
             List<StockSymbol> symbols = client.symbols(Exchange.US_EXCHANGES.toString());
 
             System.out.println("symbols = " + symbols);
