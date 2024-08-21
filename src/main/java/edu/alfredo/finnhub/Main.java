@@ -1,4 +1,4 @@
-package edu.alfredo.sortlist;
+package edu.alfredo.finnhub;
 
 import com.github.oscerd.finnhub.client.FinnhubClient;
 import com.github.oscerd.finnhub.models.CompanyProfile2;
