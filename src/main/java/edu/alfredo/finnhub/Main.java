@@ -18,6 +18,8 @@ public class Main {
         // on 21 of august 2024
         for (int i = 0; i < 100; i++) {
 
+            // https://finnhub.io/dashboard
+            // https://finnhub.io/ to get a Free API Key :)
             FinnhubClient client = new FinnhubClient.Builder().token("put your API Key here").build();
 
             CompanyProfile2 companyProfile = client.companyProfile("TSLA");
